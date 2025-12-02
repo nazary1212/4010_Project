@@ -9,7 +9,7 @@ This project builds time-series forecasting models for U.S. residential construc
 The dataset is stored in `construction_permits.csv` and contains monthly observations by U.S. state, including:  
 - State name (`Name`).  
 - Number of permits by unit size: 1 unit, 2 units, 3–4 units, 5+ units.  
-- Period information (full period string, numeric month, month name, year).  
+- Date (full period string, numeric month, month name, year).  
 - Valuations for each unit-size category.  
 
 These fields are used to construct total-permit time series and permit-type-specific series for each state for model training and evaluation.
