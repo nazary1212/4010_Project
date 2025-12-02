@@ -1,4 +1,4 @@
-# Construction Permit Forecasting README
+# Construction Permit Forecasting - 4010 Deep Learning for Time Series Forecasting Project 
 
 ## Project overview
 
