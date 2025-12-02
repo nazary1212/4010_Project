@@ -2,7 +2,7 @@
 
 ## Project overview
 
-This project builds time-series forecasting models for U.S. residential construction permits using a historical dataset of monthly permit counts and valuations by state and unit type. It compares several neural and statistical forecasting models, applies hyperparameter optimization, and produces 1‑year ahead forecasts by state and permit type with simple confidence intervals.
+This project builds time-series forecasting models for U.S. residential construction permits using a historical dataset of monthly permit counts and valuations by state and unit type. It compares several neural and statistical forecasting models, applies hyperparameter optimization, and produces 1‑year ahead forecasts by state for total permits given out as well as individiual permit types for 1 unit, 2 unit, 3-4 unit, and 5+ unit residencies 
 
 ## Data description
 
