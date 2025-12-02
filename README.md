@@ -30,7 +30,7 @@ For total permits per state, the code first trains a baseline recurrent neural n
 
 ### Baseline post‑2008 financial crisis
 
-To better align with the regulatory environment relevant for post‑2025 forecasting, a second baseline RNN is trained on data starting from approximately January 1, 2009. This subset aims to reduce noise introduced by structural changes in permit regulations during and immediately after the 2008 financial crisis.
+To better align with the regulatory environment on building permits handed out in the U.S relevant for post‑2025 forecasting, a second baseline RNN is trained on data starting from approximately January 1, 2009. This subset aims to reduce noise introduced by structural changes in permit regulations during and immediately after the 2008 financial crisis. 
 
 ## Model selection for total permits
 
