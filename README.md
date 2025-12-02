@@ -14,13 +14,6 @@ The dataset is stored in `construction_permits.csv` and contains monthly observa
 
 These fields are used to construct total-permit time series and permit-type-specific series for each state for model training and evaluation.
 
-## Repository structure
-
-- `construction_permits.csv`: Main input dataset containing state-level monthly permit counts and valuations.  
-- `main.py` (or equivalent): Single Python script containing all data preprocessing, model training, evaluation, hyperparameter optimization, and forecasting logic described below.  
-
-No additional configuration files are required; all analysis is orchestrated from the main script using the attached CSV.
-
 ## Data preprocessing
 
 The preprocessing section of the script:  
