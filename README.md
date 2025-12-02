@@ -65,7 +65,7 @@ In the “HPO – Best model” section, hyperparameter optimization is applied 
 The “Final Results” section offers an interface where a user can specify a state and permit type to generate and visualize a 1‑year ahead forecast. For each chosen state–permit combination, the script plots the forecast along with a simple confidence interval constructed by shifting predictions by plus/minus one standard deviation of historical values for that specific state and permit type.
 
 ## How to run
-
+- Suggested to use Google Colab as the environment, and enabling the T4 GPU. 
 - Ensure Python and the required scientific/ML libraries (for example, NumPy, pandas, TensorFlow/PyTorch, statsmodels, and an HPO library such as Optuna if used) are installed.  
-- Place `construction_permits.csv` in the same directory as the main script and run the script from the command line or an IDE.  
-- Follow any prompts or function arguments in the “Final Results” section to input a state and permit type and view the generated forecast plots.
+- Place `construction_permits.csv` when prompted to upload in the data preproccesing section
+- The outputs of the code should display all necessary results other than the Permit Types --> Final results section which is interactive due to high processing demand. To use this run the data preprocessing section and the enitre permit types subsection EXCEPT for HPO. This was ran just to get our optimized parameter values, this is not necessary to run again as these parameters were hardcoded into our interactive model. 
